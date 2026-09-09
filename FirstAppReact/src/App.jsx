@@ -1,3 +1,4 @@
+import "./styles.css";
 import Logo from "./assets/React-logo.png";
 
 const content = [
@@ -28,7 +29,7 @@ const content = [
 
 function App() {
   return (
-    <div>
+    <div >
       <header>
         <img src={Logo} alt="React logo" />
         <div>
